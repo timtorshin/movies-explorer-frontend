@@ -1,0 +1,35 @@
+.promo {
+  background-color: #DDDEE3;
+  margin: 0 auto;
+  padding: 50px 70px 60px;
+  display: flex;
+}
+
+.promo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 450px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.promo__title {
+  margin: 0;
+  padding: 0;
+  max-width: 626px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -0.04em;
+}
+
+.promo__image {
+  background-image: url('../../images/promo-logo.svg');
+  align-self: flex-end;
+  width: 722px;
+  height: 244px;
+}
