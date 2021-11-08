@@ -1,0 +1,7 @@
+.movies-card-list {
+  background-color: #FAFAFA;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(364px, 1fr));
+  gap: 37px 24px;
+  padding: 70px 70px 10px;
+}

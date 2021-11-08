@@ -1,9 +1,13 @@
 .footer {
   background-color: #F8F8F8;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: flex-start;
   padding: 79px 70px 20px;
+}
+
+.footer_visible {
+  display: flex;
 }
 
 .footer__text {
