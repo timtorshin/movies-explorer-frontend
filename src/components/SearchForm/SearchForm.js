@@ -15,7 +15,7 @@ function SearchForm() {
   return (
     <section className="search-form">
       <form className="search-form__form">
-        <input className="search-form__form-input" type="text" placeholder="Фильм"></input>
+        <input className="search-form__form-input" type="text" placeholder="Фильм" />
         <button className="search-form__form-button">Найти</button>
       </form>
       <div className="search-form__switcher">

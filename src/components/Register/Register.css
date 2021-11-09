@@ -1,0 +1,114 @@
+.register {
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register__container {
+  width: 396px;
+}
+
+.register__link {
+  align-self: flex-start;
+}
+
+.register__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+  margin: 40px 0;
+  align-self: flex-start;
+}
+
+.register__form-block {
+  margin-bottom: 20px;
+}
+
+.register__form-block:last-child {
+  margin-bottom: 0;
+}
+
+.register__form-block-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #A0A0A0;
+  margin: 0 0 10px;
+}
+
+.register__form-block-input {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;   
+  color: #000;
+  border: none;
+  outline: none;
+  padding: 15px;
+  background-color: #F4F4F4;
+  width: 100%;
+  max-width: 366px;
+  border-radius: 8px;
+}
+
+.register__buttons {
+  margin: 91px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.register__button {
+  margin-bottom: 16px;
+}
+
+.register__button:last-child {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register__button-reg {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFF;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 13px 0 15px; 
+  background-color: #3456F3;
+}
+
+.register__button-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #A0A0A0;
+  margin: 0;
+}
+
+.register__button-link-auth {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #3456F3;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+  margin-left: 6px;
+}
