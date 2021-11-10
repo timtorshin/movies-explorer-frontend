@@ -65,8 +65,70 @@
   font-size: 14px;
   line-height: 17px;
   letter-spacing: -0.04em;
-  color: #000000;
+  color: #000;
   text-align: center;
   background-color: #E8E8E8;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .techs {
+    padding: 90px 50px;
+  }
+
+  .techs__title {
+    margin: 0 0 80px;
+    padding-bottom: 22px;
+  }
+
+  .techs__text {
+    padding-top: 22px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .techs__list {
+    grid-template-columns: repeat(7, 84px);
+    padding: 83px 0 0;
+  }
+
+  .techs__list-item {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .techs {
+    padding: 70px 18px;
+  }
+
+  .techs__title {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 60px;
+    padding-bottom: 28px;
+  }
+
+  .techs__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .techs__text {
+    max-width: 292px;
+    padding-top: 24px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .techs__list {
+    grid-template-columns: repeat(2, 84px);
+    padding: 50px 0 0;
+  }
+
+  .techs__list-item {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }

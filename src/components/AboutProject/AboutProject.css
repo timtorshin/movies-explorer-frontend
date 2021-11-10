@@ -78,7 +78,6 @@
   margin: 0 0 14px;
   padding: 9px 0;
   background-color: #F2F2F2;
-  ;
 }
 
 .about-project__timeline-week_color {
@@ -94,4 +93,85 @@
   text-align: center;
   color: #A0A0A0;
   margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .about-project {
+    padding: 90px 50px;
+  }
+
+  .about-project__descriptions {
+    margin-bottom: 93px;
+  }
+
+  .about-project__description {
+    max-width: 319px;
+  }
+
+  .about-project__description:first-child {
+    margin-right: 30px;
+  }
+
+  .about-project__description-heading {
+    padding-bottom: 22px;
+  }
+
+  .about-project__description-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about-project {
+    padding: 70px 18px;
+  }
+
+  .about-project__title {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 28px;
+  }
+
+  .about-project__descriptions {
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .about-project__description {
+    max-width: 100%;
+  }
+
+  .about-project__description:first-child {
+    margin-right: 0;
+    margin-bottom: 56px;
+  }
+
+  .about-project__description-heading {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 16px;
+  }
+
+  .about-project__description-text {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about-project__timeline:first-child {
+    width: 35%;
+  }
+
+  .about-project__timeline-week {
+    font-size: 11px;
+    line-height: 13px;
+    margin: 0 0 10px;
+    padding: 11px 0;
+  }
+
+  .about-project__timeline-softarch {
+    font-size: 11px;
+    line-height: 13px;
+  }
 }

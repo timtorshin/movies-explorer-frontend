@@ -112,3 +112,40 @@
   padding: 0;
   margin-left: 6px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .register__container {
+    width: 260px;
+  }
+
+  .register__link {
+    align-self: center;
+  }
+
+  .register__title {
+    margin: 50px 0 80px;
+    text-align: center;
+  }
+
+  .register__form-block-input {
+    max-width: 230px;
+  }
+
+  .register__button-reg {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 15px 0 15px; 
+  }
+
+  .register__button-text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .register__button-link-auth {
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 7px;
+    padding: 0;
+  }
+}
