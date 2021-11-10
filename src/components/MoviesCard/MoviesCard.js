@@ -1,8 +1,11 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import './MoviesCard.css';
 import cover from '../../images/moviescard-test-cover.jpg';
 
 function MoviesCard() {
+  const location = useLocation();
+
   const [isLikeButtonClicked, setIsLikeButtonClicked] = React.useState(false);
 
   function handleLikeButtonClick() {
@@ -19,7 +22,7 @@ function MoviesCard() {
       <div className="movies-card__info">
         <div className="movies-card__info-block">
           <h3 className="movies-card__info-block-name">33 слова о дизайне</h3>
-          <button className={`movies-card__info-block-button ${isLikeButtonClicked && 'movies-card__info-block-button_active'}`} onClick={handleLikeButtonClick}></button>
+          <button className={`movies-card__info-block-button ${location.pathname === "/saved-movies" && 'movies-card__info-block-button_delete'} ${isLikeButtonClicked && 'movies-card__info-block-button_active'}`} onClick={handleLikeButtonClick}></button>
         </div>
         <p className="movies-card__info-time">1ч 47м</p>
       </div>

@@ -50,6 +50,10 @@
   background-image: url(../../images/moviescard-like-logo-active.svg);
 }
 
+.movies-card__info-block-button_delete {
+  background-image: url(../../images/moviescard-logo-delete.svg);
+}
+
 .movies-card__info-time {
   font-style: normal;
   font-weight: normal;

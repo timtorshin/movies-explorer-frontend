@@ -6,12 +6,14 @@ import Profile from '../Profile/Profile';
 import Main from '../Main/Main';
 import Movies from '../Movies/Movies';
 import SavedMovies from '../SavedMovies/SavedMovies';
+import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import PageNotFound from '../PageNotFound/PageNotFound';
 
 function App() {
   return (
     <div className="root">
+      <Header />
       <Switch>
         <Route path="/signup">
           <Register />
