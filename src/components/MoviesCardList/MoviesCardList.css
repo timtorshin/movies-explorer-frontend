@@ -1,0 +1,27 @@
+.movies-card-list {
+  background-color: #FAFAFA;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(364px, 1fr));
+  gap: 37px 24px;
+  padding: 70px 70px 10px;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .movies-card-list {
+    grid-template-columns: repeat(auto-fit, minmax(339px, 1fr));
+    gap: 30px;
+    padding: 70px 30px 30px;
+    max-width: 708px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .movies-card-list {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 14px;
+    padding: 40px 10px 26px;
+    max-width: 300px;
+  }
+}
